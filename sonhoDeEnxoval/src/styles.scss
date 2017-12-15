@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+$font-stack:    Helvetica, sans-serif;
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+
+.sde-container{
+    font: 100% $font-stack;
+    padding: 30px;
+}
+
+
+
+.table-responsive{
+    width: 100%;
+    background-color: #f3f3f3;
+    tbody{
+      height:200px;
+      overflow-y:auto;
+      width: 100%;
+      }
+    thead,tbody,tr,td,th{
+      display:block;
+    }
+    tbody{
+      td{
+        float:left;
+      }
+    }
+    thead {
+      tr{
+        th{
+          float:left;
+         background-color: #343a40;
+         border-color:#343a40;
+         color: #f3f3f3;
+        }
+      }
+    }
+  }
+  
+
+
+  
